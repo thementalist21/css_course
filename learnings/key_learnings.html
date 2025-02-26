@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="icon/x-icon" href="assets/html5.png" />
+  </head>
+  <body>
+    <header>
+      <h1>This is my first website</h1>
+    </header>
+    <hr />
+    <main>
+      <article>
+        <p>
+          In html, the first few things I learned was that you can add a link
+          tag to the CSS file you're using and for showing an icon on the
+          webpage you're creating. The use of HTML Entities like &lt; and &gt;
+          with the right amount of &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;. I also
+          learned key things like tags that work for <em>semantics</em> and
+          <strong>Assistive Tech</strong>.I learned a lot of different hacks
+          through the course about the endless VSCode Extensions and Coding tips
+          in general. Keeping it <em>DRY</em> was never my style but
+          <a href="https://github.com/gitdagray" target="_blank">Dave Gray</a>
+          taught me better. Oh!! I didn't even realise I already used an
+          <strong>anchor tag</strong> that opens in another tab which is another
+          thing I learned.
+        </p>
+        <hr />
+        <p>
+          I learned how to create links, tables and forms in html. I am going to
+          showcase all my skills in this website as I have already done by using
+          the header -> main and footer elements for basic semantics.
+        </p>
+        <hr />
+        <p>
+          Lets create a nav bar first that showcases the different uses of
+          links, anchor tags with absolute, relative and internal references and
+          the different types of lists
+        </p>
+      </article>
+      <hr />
+      <article>
+        <nav>
+          <ol>
+            <li>
+              This is the first item of this basic ordered list. There are also
+              unordered and description lists that can be used according to
+              their specific usecases btw!!
+            </li>
+            <li>
+              This is the second item that consists of an
+              <a href="internal.html">internal link</a> unlike the one in my
+              intro paragraph.
+            </li>
+            <li>
+              This is the third kind of link which is directs you to a
+              <a href="#diffsec">different section</a> on the existing page.
+            </li>
+            <li>
+              There is always an <a href="#about"> About ME </a>page linked to
+              every website.
+            </li>
+          </ol>
+        </nav>
+      </article>
+      <hr />
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <article id="diffsec">
+        <p>Hi!! I am the different section I spoke about earlier!</p>
+      </article>
+      <article>
+        <p>
+          I learned about adding images to an html page! Here is how you can do
+          it using an figure and img tag. Another important thing with images
+          that are below the fold are best used with the
+          <strong>loading=lazy</strong>attribute
+        </p>
+        <aside>
+          <details>
+            <summary>
+              How can some things be put on a page without drawing too much
+              attention to them!! or by involving some user interactibility!
+            </summary>
+            <p>By using this aside-details-summary-para stuff!!</p>
+          </details>
+        </aside>
+        <figure>
+          <img src="assets/caribbean.jpg" alt="Shacks in Mumbai" />
+          <figcaption>
+            This is a random image of shacks in Mumbai in the 1950's
+          </figcaption>
+        </figure>
+      </article>
+      <article>
+        <p>
+          Through the course, I also learned about tables and forms. I will
+          create a table and a form now! Are you ready to witness this ?? I
+          really hope you are.
+        </p>
+        <br /><br />
+        <p>
+          A table with good semantics always starts with a caption, followed by
+          a thead -> a tbody and a tfoot. The scope attribute also adds lots of
+          value. With table rows and table data elements we can create tables
+          with ease
+        </p>
+        <table>
+          <caption>
+            <!--The header for the table itself-->
+            My Learnings in a Tabular Format
+          </caption>
+          <thead>
+            <!-- The table's first row of column headers-->
+            <tr>
+              <th>Time</th>
+              <th>Activity</th>
+              <th>Purpose</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <time datetime="12:00">12pm</time>
+              </td>
+              <td>Wake UP!!</td>
+              <td>Cause its freaking 12pm already</td>
+            </tr>
+            <tr>
+              <td>
+                <time datetime="12:00">12pm</time>-<time datetime="13:00"
+                  >1pm</time
+                >
+              </td>
+              <td>Freshen Up and Get Ready to Code</td>
+              <td>Cause idk other ways to earn at the moment</td>
+            </tr>
+            <tr>
+              <td>
+                <time datetime="13:00">1pm</time>-<time datetime="14:00"
+                  >2pm</time
+                >
+              </td>
+              <td>Lunch Break</td>
+              <td>Cause food is important too</td>
+            </tr>
+            <tr>
+              <td>
+                <time datetime="14:00">2pm</time>-<time datetime="17:00"
+                  >5pm</time
+                >
+              </td>
+              <td>Back to Coding</td>
+              <td>Cause really need the money</td>
+            </tr>
+            <tr>
+              <td>
+                <time datetime="17:00">5pm</time>-<time datetime="18:00"
+                  >6pm</time
+                >
+              </td>
+              <td>Aim Training for Valorant</td>
+              <td>Cause Valo is Life</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <!-- The table's last row consisting of a summary for the table-->
+            I can't give you all the details now. Come on!
+          </tfoot>
+        </table>
+        <hr />
+        <hr />
+        <hr />
+        <p>
+          Here are the key things I learned about forms and how to create them
+        </p>
+      </article>
+      <hr />
+      <hr />
+      <hr />
+      <br /><br /><br /><br /><br /><br /><br /><br />
+      <article>
+        <p>
+          A form always has an "action" that's either &lt;get&gt; or
+          &lt;post&gt;. <br />
+          You create the form -- fieldset -- legend. The contents of forms are
+          labels and inputs! The for should match the id of the input. The
+          "name" is how it is identified at the server level. The required
+          attribute forces the user to input something before submitting the
+          form. The autofocus attribute will have the cursor blinking in this
+          input. The type password doesn't allow others to see the input. The
+          type tel and pattern attribute are used for telephone numbers.There
+          are different input types like decade, select and options like a
+          <strong>DROPDOWN INPUT</strong>. You can use optgroups for
+          differentiating in the select menu.
+        </p>
+        <hr />
+        <p>
+          The input text type with list=someID with a label -> input and a
+          datalist lets the user type a word and filter the list if it is an
+          exhaustive list. Also learned about radio and checkbox form inputs
+          that have an input first and a label later. I've showcased Radio
+          inputs. <br /><br /><br /><br /><br />
+          There is one last type called message that has a text area. I think I
+          should showcase this one too.
+          <br><br><br><br><br>The last thing is the Sumbit button and ofcourse a reset button is handy. Also,using post can be important sometimes. Idk why yet, and where to use get vs using post. <br><br><br><br><br> The key difference I understand right now is that the get request adds it in the url as parameters so sensitive info should go through post.
+        </p>
+        <form action="https://httpbin.org/get" method="get">
+          <fieldset>
+            <legend>General Info</legend>
+            <p>
+              <label for="firstName">First Name:</label>
+              <input
+                type="text"
+                name="firstName"
+                id="firstName"
+                placeholder="Keegan"
+                required
+              />
+            </p>
+            <p>
+              <label for="lastName">Last Name:</label>
+              <input
+                type="text"
+                name="lastName"
+                id="lastName"
+                placeholder="Keegan"
+                required
+              />
+            </p>
+            <p>
+              <label for="sports">Favourite Sport:</label>
+              <input
+                type="text"
+                name="sports"
+                id="sports"
+                placeholder="Football"
+                list="sports-list"
+              />
+              <datalist id="sports-list">
+                <option value="Football">Football</option>
+                <option value="Basketball">Basketball</option>
+                <option value="Rugby">Rugby</option>
+                <option value="Hockey">Hockey</option>
+              </datalist>
+            </p>
+          </fieldset>
+          <fieldset>
+            <legend>Priority Preferences Information</legend>
+            <p>
+              <input type="radio" name="food" id="tacos" value="tacos" />
+              <label for="tacos">Tacos</label>
+            </p>
+            <p>
+              <input type="radio" name="food" id="pizza" value="pizza" />
+              <label for="pizza">Pizza</label>
+            </p>
+            <p>
+              <input type="radio" name="food" id="pasta" value="pasta" />
+              <label for="pasta">Pasta</label>
+            </p>
+          </fieldset>
+          <fieldset>
+            <legend>Send me a message</legend>
+            <label for="message">Your Message:</label>
+            <br />
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Type your message here.."
+            ></textarea>
+          </fieldset>
+          <br>
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+          <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+        </form>
+      </article>
+    </main>
+    <footer>
+      <p>
+        &lt;&lt;&lt; <a href="about.html">Keegan Lobo</a> &copy; &gt;&gt;&gt;
+      </p>
+    </footer>
+  </body>
+</html>
